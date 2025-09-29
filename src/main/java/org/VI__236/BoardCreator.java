@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BoardCreator {
 
-    public char [] [] gameBoarCreator(char [] [] gameBoard, int boardSize){
+    public char [] [] gameBoarCreator(char [][] gameBoard, int boardSize){
 
         if (boardSize < 2){
             return null;
