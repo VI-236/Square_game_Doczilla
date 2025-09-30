@@ -4,13 +4,16 @@ import java.util.Arrays;
 
 public class BoardCreator {
 
-    public char [] [] gameBoarCreator(char [][] gameBoard, int boardSize){
+    public int [][] gameBoarCreator(int [][] gameBoard, int boardSize){
 
         if (boardSize < 2){
             return null;
         }
         else{
-            return gameBoard = new char [boardSize] [boardSize];
+            for(int a = 0; a < boardSize; a++){
+
+            }
+            return gameBoard = new int [boardSize] [boardSize];
         }
     }
 }

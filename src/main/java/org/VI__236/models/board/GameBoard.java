@@ -1,4 +1,4 @@
-package org.VI__236.models;
+package org.VI__236.models.board;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,6 +11,6 @@ public class GameBoard {
 
     @Setter
     @Getter
-    private char [][] board;
+    private int [][] board;
 
 }
